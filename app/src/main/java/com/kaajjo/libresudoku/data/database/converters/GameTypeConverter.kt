@@ -27,6 +27,9 @@ class GameTypeConverter {
             1 -> GameType.Default9x9
             2 -> GameType.Default12x12
             3 -> GameType.Default6x6
+            4 -> GameType.Killer9x9
+            5 -> GameType.Killer12x12
+            6 -> GameType.Killer6x6
             else -> GameType.Unspecified
         }
     }

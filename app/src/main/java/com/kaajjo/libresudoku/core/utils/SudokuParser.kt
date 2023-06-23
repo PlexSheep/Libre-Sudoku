@@ -1,5 +1,6 @@
 package com.kaajjo.libresudoku.core.utils
 
+import android.util.Log
 import com.kaajjo.libresudoku.core.Cell
 import com.kaajjo.libresudoku.core.Note
 import com.kaajjo.libresudoku.core.qqwing.GameType
@@ -13,6 +14,7 @@ class SudokuParser {
         locked: Boolean = false,
         emptySeparator: Char? = null
     ): MutableList<MutableList<Cell>> {
+        Log.d("parseBoard", "gameType: $gameType")
         if (board.isEmpty()) {
             throw BoardParseException(message = "Input string was empty")
         }
