@@ -261,4 +261,7 @@
     <string name="pref_crash_reporting_subtitle">Ajude-nos a corrigir erros. A app não envia nenhum log por si só, será solicitado a enviar um relatório de falha por e-mail</string>
     <string name="pref_fun_keyboard_over_num">Teclado de função sobre os números</string>
     <string name="pref_fun_keyboard_over_num_subtitle">Ponha o teclado de função acima dos números</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

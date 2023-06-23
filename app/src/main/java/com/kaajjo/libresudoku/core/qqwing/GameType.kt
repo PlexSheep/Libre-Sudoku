@@ -16,7 +16,7 @@ enum class GameType(
     Default9x9(9, 3, 3, R.string.type_default_9x9, false),
     Default12x12(12, 3, 4, R.string.type_default_12x12, false),
     Default6x6(6, 2, 3, R.string.type_default_6x6, false),
-    Killer9x9(9, 3, 3, R.string.type_default_9x9, true),
-    Killer12x12(12, 3, 4, R.string.type_default_12x12, true),
-    Killer6x6(6, 2, 3, R.string.type_default_6x6, true),
+    Killer9x9(9, 3, 3, R.string.type_killer_9x9, true),
+    Killer12x12(12, 3, 4, R.string.type_killer_12x12, true),
+    Killer6x6(6, 2, 3, R.string.type_killer_6x6, true),
 }

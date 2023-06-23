@@ -59,4 +59,7 @@
     <string name="pref_mistakes_check_off">Ki</string>
     <string name="pref_show_timer">Időzitő mutatása</string>
     <string name="pref_reset_timer">Időzitő visszaállítasa játék újraindításakor</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

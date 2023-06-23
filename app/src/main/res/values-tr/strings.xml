@@ -204,4 +204,7 @@
     <string name="multiple_solution_text">Bu bulmacanın birden fazla çözümü vardır. Doğru sudoku bulmacasının tek bir benzersiz çözümü olmalıdır</string>
     <string name="learn_hidden_pairs_2">Buradan, bu iki hücrenin yalnızca bu iki sayıyı içereceği ve diğerlerini içermeyeceği sonucuna varabilirsiniz. Böylece bu hücrelerden gereksiz işaretleri kaldırabilirsiniz. Çıplak çiftlerde olduğu gibi, bu işlem sütun ve satırlarda da aynı şekilde çalışır</string>
     <string name="last_played_section_title">Yakın zamanda oynanmış oyunlar</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

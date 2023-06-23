@@ -270,4 +270,7 @@
     <string name="stat_time_current">Nåværende: %1$s</string>
     <string name="stat_time_average">Gjen.: %1$s</string>
     <string name="pref_date_format_custom">Egendefinert datoformat</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

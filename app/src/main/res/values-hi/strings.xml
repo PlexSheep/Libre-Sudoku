@@ -43,7 +43,7 @@
     <string name="difficulty_easy">आसान</string>
     <string name="difficulty_hard">कठिन</string>
     <string name="difficulty_moderate">औसत</string>
-    <string name="type_default_12x12">१२×१२</string>
+    <string name="type_default_12x12">12x12</string>
     <string name="pref_dark_theme_follow">प्रणाली के अनुसार</string>
     <string name="pref_dark_theme_on">चालू</string>
     <string name="pref_board_font_size_small">छोटा</string>
@@ -109,4 +109,7 @@
     <string name="toolbar_notes_description">नोट मोड को सक्रिय करता है (पेंसिल के निशान)</string>
     <string name="toolbar_hint_description">चयनित कक्ष में सही मान सम्मिलित करता है । सेटिंग्स में इसे बंद किया जा सकता है</string>
     <string name="average_time">औसत समय</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

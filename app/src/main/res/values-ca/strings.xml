@@ -4,4 +4,8 @@
     <string name="nav_bar_more">Més</string>
     <string name="nav_bar_statistics">Estadístiques</string>
     <string name="new_game">Nou joc</string>
+    <string name="type_default_12x12">12x12</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

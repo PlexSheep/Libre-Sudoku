@@ -260,4 +260,7 @@
     <string name="pref_crash_reporting">Rapport d\'incident</string>
     <string name="dialog_crash_report_text">Oups, LibreSudoku vient de planter. Souhaitez-vous envoyer un rapport de plantage aux développeurs \?</string>
     <string name="pref_crash_reporting_subtitle">Aidez-nous à corriger les bugs. L\'application n\'envoie aucun journal par elle-même, vous serez invité à envoyer un rapport de plantage par e-mail</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

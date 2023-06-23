@@ -145,7 +145,7 @@ class HomeViewModel
 
     fun changeType(diff: Int) {
         val indexToSet = types.indexOf(selectedType) + diff
-        Log.d("changeType", "Changed difficulty by $indexToSet")
+        Log.d("changeType", "Changed difficulty to $indexToSet")
         if (indexToSet >= 0 && indexToSet < types.count()) {
             selectedType = types[indexToSet]
         }

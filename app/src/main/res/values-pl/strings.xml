@@ -25,4 +25,7 @@
     <string name="nav_bar_statistics">Statystyki</string>
     <string name="new_game">Nowa gra</string>
     <string name="dialog_new_game">Gra w toku</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>

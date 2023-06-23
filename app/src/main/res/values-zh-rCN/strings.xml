@@ -269,4 +269,7 @@
     <string name="first_game_dialog_got_it">明白了</string>
     <string name="action_exit">退出</string>
     <string name="pref_crash_reporting_subtitle">帮助我们修复错误。应用本身不会发送日志，系统将提示您通过电子邮件发送崩溃报告</string>
+    <string name="type_killer_6x6">6x6 Killer</string>
+    <string name="type_killer_9x9">9x9 Killer</string>
+    <string name="type_killer_12x12">12x12 Killer</string>
 </resources>
