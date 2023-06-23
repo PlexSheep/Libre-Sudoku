@@ -55,8 +55,12 @@ fun HomeScreen(
             )
             HorizontalPicker(
                 text = stringResource(viewModel.selectedType.resName),
-                onLeftClick = { viewModel.changeType(-1) },
-                onRightClick = { viewModel.changeType(1) }
+                onLeftClick = {
+                    viewModel.changeType(-1)
+                },
+                onRightClick = {
+                    viewModel.changeType(1)
+                }
             )
 
             Spacer(Modifier.height(12.dp))

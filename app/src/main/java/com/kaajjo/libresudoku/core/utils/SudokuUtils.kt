@@ -162,6 +162,30 @@ class SudokuUtils {
                     else -> 24.sp
                 }
             }
+
+            GameType.Killer9x9 -> {
+                when (factor) {
+                    1 -> 28.sp
+                    2 -> 36.sp
+                    else -> 22.sp
+                }
+            }
+
+            GameType.Killer12x12 -> {
+                when (factor) {
+                    1 -> 24.sp
+                    2 -> 32.sp
+                    else -> 18.sp
+                }
+            }
+
+            GameType.Killer6x6 -> {
+                when (factor) {
+                    1 -> 34.sp
+                    2 -> 40.sp
+                    else -> 24.sp
+                }
+            }
         }
     }
 }

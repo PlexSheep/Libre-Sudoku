@@ -1,5 +1,6 @@
 package com.kaajjo.libresudoku.ui.home
 
+import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -46,7 +47,10 @@ class HomeViewModel
     private val types = listOf(
         GameType.Default9x9,
         GameType.Default6x6,
-        GameType.Default12x12
+        GameType.Default12x12,
+        GameType.Killer9x9,
+        GameType.Killer6x6,
+        GameType.Killer12x12
     )
 
     val lastSelectedGameDifficultyType = appSettingsManager.lastSelectedGameDifficultyType
@@ -141,6 +145,7 @@ class HomeViewModel
 
     fun changeType(diff: Int) {
         val indexToSet = types.indexOf(selectedType) + diff
+        Log.d("changeType", "Changed difficulty by $indexToSet")
         if (indexToSet >= 0 && indexToSet < types.count()) {
             selectedType = types[indexToSet]
         }

@@ -274,6 +274,9 @@ class AppSettingsManager(context: Context) {
                 GameType.Default9x9 -> "1"
                 GameType.Default12x12 -> "2"
                 GameType.Default6x6 -> "3"
+                GameType.Killer9x9 -> "4"
+                GameType.Killer12x12 -> "5"
+                GameType.Killer6x6 -> "6"
             }
             settings[lastSelectedGameDifficultyTypeKey] = difficultyAndType
         }
