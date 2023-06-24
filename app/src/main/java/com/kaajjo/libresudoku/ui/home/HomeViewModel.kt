@@ -103,7 +103,16 @@ class HomeViewModel
 
             // generating
             isGenerating = true
-            val generated = qqWingController.generate(gameTypeToGenerate, gameDifficultyToGenerate)
+            var generated: IntArray? = null
+            generated = if (!gameTypeToGenerate.killer) {
+                // classic sudoku
+                qqWingController.generate(gameTypeToGenerate, gameDifficultyToGenerate)
+            } else {
+                // killer sudoku
+                // TODO find some way to generate killer sudoku
+                qqWingController.generate(gameTypeToGenerate, gameDifficultyToGenerate)
+            }
+            Log.d("jjo.libresudoku ", "generated sudoku: ${generated.contentToString()} \n")
             isGenerating = false
 
             isSolving = true
